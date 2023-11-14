@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div style="width: 90%;margin: auto;display: flex;align-items: center;justify-content: space-between;">
+      <h1>Users Management</h1>
+      <button class="newUserBtn">+ New User</button>
+      </div>
+      <table class="tableUsers">
+        <thead>
+          <tr>
+            <td class="tds">id</td>
+            <td class="tds">Name</td>
+            <td class="tds">Email</td>
+            <td class="tds">Completed</td>
+            <td class="tds">Action</td>
+          </tr>
+        </thead>
+        <tbody class="box"></tbody>
+      </table>
+    </div>
+    <dialog class="openModal">
+      <input type="text" class="nameInp" />
+      <input type="text" class="emailInp" />
+      <button class="addBtn">Add</button>
+      <button class="close">close</button>
+    </dialog>
+
+    <dialog class="editModal">
+      <input type="text" class="nameEdInp" />
+      <input type="text" class="emailInpEd" />
+      <button class="editBtn">Edit</button>
+    </dialog>
+    <dialog class="info">
+      <div class="infDiv">
+        <label for="idUser">Id:</label>
+        <input type="text" id="idUser" class="iddInp" />
+      </div>
+      <div class="infDiv">
+        <label for="nameUser">Name:</label>
+        <input type="text" id="nameUser" class="nameI" />
+      </div>
+      <div class="infDiv">
+        <label for="emailUser">Email:</label>
+        <input type="text" id="emailUser" class="emaiInp" />
+      </div>
+      <button class="exit">exit</button>
+    </dialog>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

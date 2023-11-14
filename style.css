@@ -1,0 +1,87 @@
+.container {
+  width: 95%;
+  height: 600px;
+  /* border: 1.5px solid blue; */
+  margin: 0 auto;
+  /* box-shadow: 0 0 9px 0 blue; */
+  margin-top: 100px;
+  padding: 30px 20px;
+}
+
+.newUserBtn {
+  padding: 10px 10px;
+  font-size: 18px;
+  border-radius: 7px;
+  border: none;
+  background: forestgreen;
+  color: #fff;
+}
+
+
+.tableUsers {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.tableUsers tr,
+td {
+  border: 1px solid black;
+}
+td {
+  padding: 12px 12px;
+  font-size: 18px;
+  font-weight: 800;
+}
+tr {
+  height: 40px;
+}
+nameUser
+.compBtn {
+  width: 120px;
+  padding: 5px 7px;
+  background: forestgreen;
+  border: none;
+  color: #fff;
+}
+.compBtn1 {
+  width: 120px;
+  padding: 5px 7px;
+  background: rgb(106, 114, 106);
+  border: none;
+  color: #fff;
+}
+.show {
+  padding: 5px 7px;
+  border-radius: 4px;
+  background: #46afd8;
+  border: none;
+  margin-right: 20px;
+}
+.edit {
+  padding: 5px 7px;
+  border-radius: 4px;
+  background: #277c9e;
+  border: none;
+  margin-right: 20px;
+  color: #fff;
+}
+.delet {
+  padding: 5px 7px;
+  border-radius: 4px;
+  background: tomato;
+  border: none;
+  margin-right: 20px;
+  color: #fff;
+}
+.chaked{
+    text-decoration: line-through;
+    color: red;
+    font-size: 23px;
+}
+
+.infDiv{
+    display: flex;
+}
